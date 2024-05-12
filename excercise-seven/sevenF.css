@@ -1,0 +1,40 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(79, 75, 75);
+}
+
+.email{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 340px;
+    margin-bottom: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+}
+
+.consent {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.button {
+    background-color: rgb(73, 124, 244);
+    border: none;
+    color: white;
+    padding-left: 123px;
+    padding-right: 123px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    border-radius: 30px;
+}

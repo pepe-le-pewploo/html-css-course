@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    width: 400px;
+    margin: 20px;
+}
+
+.profile-picture {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+p {
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.inner-container {
+    border-width: 1px;
+    border-color: rgb(196, 196, 196);
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    width: 340px;
+}
+
+.blank {
+    width: 100px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgb(211, 211, 211);
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.myspan {
+    color: rgb(124, 124, 124);
+    font-weight: 500;
+}
+
+.desc {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.inner-column {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 250px;
+}
+
+.link {
+    color: rgb(124, 124, 124);
+    margin-bottom: 4px;    
+}

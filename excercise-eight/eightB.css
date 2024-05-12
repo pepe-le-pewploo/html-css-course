@@ -1,0 +1,9 @@
+.paragraph {
+    width: 200px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yes,.no {
+    vertical-align: middle;
+}

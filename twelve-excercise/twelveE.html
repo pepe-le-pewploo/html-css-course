@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twelve E</title>
+
+        <style>
+            div {
+                font-family: Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .container {
+                width: 250px;
+                border-width: 1px;
+                border-radius: 10px;
+                border-color: gray;
+                border-style: solid;
+                padding-left: 12px;
+                padding-top: 12px;
+                padding-right: 12px;
+            }
+            .flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                align-items: center;
+            }
+
+            .numeric {
+                color: white;
+                background-color: rgb(85, 98, 210);
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                border-radius: 12px;
+                border:none;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="flexbox">
+                <div class="type">Home</div>
+                <div class="numeric">14</div>
+            </div>
+
+            <div class="flexbox">
+                <div class="type">Notifications</div>
+                <div class="numeric">3</div>
+            </div>
+
+            <div class="flexbox">
+                <div class="type">Messages</div>
+                <div class="numeric">5</div>
+            </div>
+            
+        </div>
+    </body>
+</html>
